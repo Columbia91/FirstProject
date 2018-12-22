@@ -18,6 +18,15 @@ namespace FirstHomework
 
             Console.WriteLine("My name is Adilet. Adilet Akhmetkali");
 
+            int firstNumb, secondNumb;
+
+            Console.Write("\nEnter 2 numbers\n1st numb = ");
+            firstNumb = int.Parse(Console.ReadLine());
+
+            Console.Write("2nd numb = ");
+            secondNumb = int.Parse(Console.ReadLine());
+
+            Console.Write("Sum of numbers - " + (firstNumb + secondNumb));
             Console.ReadKey();
         }
     }
